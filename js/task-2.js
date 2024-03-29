@@ -1,3 +1,4 @@
+
 function makeArray(firstArray, secondArray, maxLength) {
     let newArray = [...firstArray, ...secondArray];
     if (newArray.length > maxLength) {
